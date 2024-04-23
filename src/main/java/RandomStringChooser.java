@@ -12,6 +12,5 @@ private ArrayList<String>words;
         return "NONE";
         int i=(int)(Math.random()*words.size());
         return words.remove(i);
-    }
   }
 }
