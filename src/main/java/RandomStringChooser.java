@@ -10,7 +10,7 @@ private ArrayList<String>words;
     public String getNext(){
       if(word.size()==0)
         return "NONE";
-        int i=(int)(Math.random()*words.size());
-        return words.remove(i);
+      int i=(int)(Math.random()*words.size());
+      return words.remove(i);
   }
 }
