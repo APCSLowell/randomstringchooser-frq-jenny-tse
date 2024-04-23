@@ -8,11 +8,10 @@ private ArrayList<String>words;
       words.add(w);
     }
     public String getNext(){
-      if(word.size()==0){
+      if(word.size()==0)
         return "NONE";
         int i=(int)(Math.random()*words.size());
         return words.remove(i);
-      }
     }
   }
 }
